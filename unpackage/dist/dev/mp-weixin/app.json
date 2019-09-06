@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/pointsMall/pointsMall",
+    "pages/product/product",
+    "pages/order/confirmation",
+    "pages/address/address",
+    "pages/address/edit/edit",
+    "components/notice-bar/uni-notice-bar",
+    "pages/myOrder/myOrder",
+    "pages/logistics/logistics",
+    "pages/pay/success"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#FF3838",
+    "backgroundColor": "#fbf9fe"
+  },
+  "usingComponents": {},
+  "permission": {},
+  "sitemapLocation": "sitemap83.json"
+}

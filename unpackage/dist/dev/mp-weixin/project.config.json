@@ -1,0 +1,76 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.0",
+	"appid": "wx210b3c42b869a769",
+	"projectname": "hyb-uniapp",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "商品详情页",
+					"query": "goodsId=4",
+					"id": 0,
+					"pathName": "pages/product/product"
+				},
+				{
+					"name": "收货地址列表",
+					"query": "",
+					"id": 1,
+					"pathName": "pages/address/address"
+				},
+				{
+					"name": "积分商城",
+					"query": "",
+					"id": 2,
+					"pathName": "pages/pointsMall/pointsMall"
+				},
+				{
+					"name": "我的订单",
+					"query": "tbIndex=0",
+					"id": 3,
+					"pathName": "pages/myOrder/myOrder"
+				},
+				{
+					"name": "我的物流",
+					"query": "",
+					"id": 4,
+					"pathName": "pages/logistics/logistics"
+				},
+				{
+					"name": "支付成功",
+					"query": "",
+					"id": 5,
+					"pathName": "pages/pay/success"
+				},
+				{
+					"name": "签到页面",
+					"query": "",
+					"id": 6,
+					"pathName": "pages/index/index"
+				}
+			]
+		}
+	}
+}

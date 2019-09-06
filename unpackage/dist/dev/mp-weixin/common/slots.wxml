@@ -1,0 +1,17 @@
+<import src="/components/uni-popup/uni-popup.vue.wxml" />
+<import src="/components/notice-bar/uni-notice-bar.vue.wxml" />
+<import src="/components/uni-calendar/uni-calendar.vue.wxml" />
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/xyz-tab/xyz-tab.vue.wxml" />
+<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/uni-calendar/uni-calendar-item.vue.wxml" />
+
+<template name="Me7534438-default-e7534438-0"><view style="line-height: 32rpx;margin-bottom: 30rpx;" class="_view Me7534438"><view class="_view Me7534438 tipsbg1">请到公众号菜单栏签到哦！<view class="_view Me7534438 iknow" bindtap="handleProxy" data-eventid="{{'e7534438-0'}}" data-comkey="{{$k}}">我知道了</view></view></view></template>
+
+<template name="M230f2c2c-default-230f2c2c-1"><view class="_view M230f2c2c jifen"><image src="../../static/img/qianbao1.png" alt mode="widthFix" style="width:100%;" class="_img M230f2c2c"></image><view class="_view M230f2c2c getintegral">获取{{price}}积分</view></view></template>
+
+<template name="M230f2c2c-default-230f2c2c-2"><view style="line-height: 32rpx;margin-bottom: 30rpx;" class="_view M230f2c2c"><view class="_view M230f2c2c tipsbg1"><view class="_view M230f2c2c tips textcenter center">签到规则\n</view>1.每日签到可以获得积分，连续签到可获得额外奖励<view class="_br M230f2c2c"></view>2.每日最多可签到一次，断签则会重新计算连签天数<view class="_br M230f2c2c"></view>3.每月会有补签次数，每次补签需要消耗一定积分<view class="_br M230f2c2c"></view>4.积分满足一定条件后，可前往积分商城兑换更多超值好物<view class="_br M230f2c2c"></view>5.积分商城每款奖品数量有限，兑完即止，积分商城会不断更新商品上架<view class="_view M230f2c2c iknow" bindtap="handleProxy" data-eventid="{{'230f2c2c-3'}}" data-comkey="{{$k}}">我知道了</view></view></view></template>
+
+<template name="M230f2c2c-default-230f2c2c-4"><view class="_view M230f2c2c tipsbg"><text class="_text M230f2c2c tips" wx:if="{{memberRetroactiveMsg.useNum >= memberRetroactiveMsg.total}}">您本月补签次数已用完</text><view style="line-height:72rpx;margin-bottom:15rpx;" wx:else class="_view M230f2c2c"><text class="_text M230f2c2c tips">本次补签需消耗{{memberRetroactiveMsg.retroactiveUseIntegral}}积分</text><text style="font-size:22rpx;" class="_text M230f2c2c">\n本月还剩补签次数（{{memberRetroactiveMsg.useNum}}/{{memberRetroactiveMsg.total}}）次</text></view><button type="default" size="mini" class="_button M230f2c2c cancel" bindtap="handleProxy" style="background: #DDDDDD;border-radius: 50rpx;" data-eventid="{{'230f2c2c-6'}}" data-comkey="{{$k}}">取消</button><text class="_text M230f2c2c">\t\t\t\t</text><button wx:if="{{memberRetroactiveMsg.useNum >= memberRetroactiveMsg.total}}" type="default" size="mini" class="_button M230f2c2c sure" bindtap="handleProxy" style="background: #FF3545;border-radius: 50rpx;" data-eventid="{{'230f2c2c-8'}}" data-comkey="{{$k}}">确定</button><button wx:else type="default" size="mini" class="_button M230f2c2c sure" style="background: #FF3545;border-radius: 50rpx;" bindtap="handleProxy" data-eventid="{{'230f2c2c-7'}}" data-comkey="{{$k}}">确定</button></view></template>
+

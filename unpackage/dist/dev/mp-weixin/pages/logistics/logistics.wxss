@@ -1,0 +1,36 @@
+.box.data-v-aac9bcd8 {
+  font-size: 32rpx;
+  width: 95%;
+  margin: 0 auto;
+  line-height: 60rpx;
+  padding-top: 25rpx;
+}
+.box .proname.data-v-aac9bcd8 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.logistics.data-v-aac9bcd8 {
+  width: 95%;
+  margin: 25rpx auto;
+  font-size: 32rpx;
+}
+.logistics .kf.data-v-aac9bcd8 {
+    border: 1rpx solid #E0E0E0;
+    color: gray;
+    font-size: 24rpx;
+    padding: 8rpx;
+    border-radius: 40rpx;
+    line-height: 1;
+    background: none;
+}
+.logistics .loglist.data-v-aac9bcd8 {
+    color: #8F8F94;
+    font-size: 20rpx;
+    line-height: 40rpx;
+    border-bottom: 1rpx solid #E0E0E0;
+    padding-bottom: 8rpx;
+    padding-top: 10rpx;
+}
+
